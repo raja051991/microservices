@@ -39,6 +39,6 @@ services:
 #    volumes:
 #      - ./wishlist-microservice-python:.
     ports:
-      - 1003:1003
+      - 1003:5000
     depends_on:
       - zuul
